@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color: white;    
+}
+
+.leftnav{
+    
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    
+}
+
+.midnav{
+    display: block;
+    margin: 13px auto;
+    width: 33%;
+    text-align: center;
+
+}
+
+.navbar{
+    display: inline-block;
+    width: 100%;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 13px 5px;
+}
+
+.rightnav{
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
